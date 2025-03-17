@@ -1,0 +1,162 @@
+:root{
+    --yellow:#FFC54D;
+    --white:whitesmoke;
+    --green:#0b8150;
+    --red: crimson;
+
+
+}
+body,h2{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.landings{
+    background-image:url("../ImageApp/spicyhutimage.jpg");
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+
+
+}
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+}
+header{
+   display:flex;
+   padding:1em;
+   font-size:1.5em;
+    
+}
+#logo{
+    flex:2;
+
+}
+nav{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+}
+nav a{
+    flex:1;
+
+}
+nav a:hover
+    {
+        color:var(--green);
+    }
+#logo:hover{
+    color:rgb(243, 12, 12);
+}
+.maintext{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content:center;
+    
+    font-size:1.5em;
+    padding:2em;
+    margin-top:8px;
+
+}
+.tagline1{
+    font-size:2.5em;
+    color:var(--red);
+}
+.tagline2{
+    color:var(--yellow);
+}
+.callus{
+    color:var(--white);
+}
+.orderbutton{
+    border-radius:1em;
+    margin:.5em;
+    min-width:15vw;
+    max-width:10vw;
+    height: 5vh;
+    background-color:beige;
+    padding:1px;
+    font-size: .8em;
+
+}
+.orderbutton:hover{
+    background-color:rgb(243, 243, 240);
+    color:darkgreen;
+    
+}
+.menu{
+    display:grid;
+    background-color:rgb(156, 149, 149);
+    color:var(--white);
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    font-size:1.5em;
+}
+#menuheading,#locheading
+    {   font-size:2em;
+        background:rgb(156, 149, 149);
+        color:var(--red);
+        display:flex;
+        justify-content:center;
+        padding:0.5em;
+        
+    }
+.menu th{
+   padding:.5em;
+    
+}
+table{
+    width:100%;
+}
+.menu tr{
+    display:flex;
+    justify-content:center;
+    
+    margin:15px;
+
+
+}
+.menu td:nth-child(1)
+    {
+        flex:1;
+        justify-self:left;
+
+    }
+.menu td:nth-child(2)
+    {
+        justify-self:right;
+    }
+.maincourse{
+    grid-row:span 2;
+}
+.locations{
+    background:rgb(156, 149, 149);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:var(--white);
+}
+address{
+    font-size:1em;
+    
+}
+.locations div{
+    flex:1;
+    padding:1.5em;
+    min-width:190px;
+    margin:1em;
+    
+    
+}
+h2,th{
+    color:var(--green);
+}
+.locations h2{
+    margin-bottom:.5em;
+}
+.velachery,.Tambaram,.annanagar{
+    padding:2em;
+    
+    
+}
